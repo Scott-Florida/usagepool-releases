@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions, ideas, licenses and refunds
+    url: https://usagepool.ai/docs#contact
+    about: Email support@usagepool.ai, ideally from the address you bought with.
+  - name: Security problems
+    url: https://usagepool.ai/privacy#security
+    about: Report privately to security@usagepool.ai, never in a public issue.

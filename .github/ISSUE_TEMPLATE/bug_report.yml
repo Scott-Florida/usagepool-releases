@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in UsagePool isn't working right, and you can make it happen again.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this! Issues here are public, so please leave out your email, account or org names and license key, and crop them out of screenshots too.
+
+        Questions, ideas, licenses, payments or refunds go to support@usagepool.ai.
+  - type: input
+    id: version
+    attributes:
+      label: UsagePool version
+      description: Open Settings, then choose UsagePool → About UsagePool in the menu bar.
+      placeholder: "1.0.2"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac
+      placeholder: "macOS 26.1 on an M3 MacBook Air"
+    validations:
+      required: true
+  - type: dropdown
+    id: providers
+    attributes:
+      label: Which providers does it involve?
+      multiple: true
+      options:
+        - Claude
+        - Codex
+        - Cursor
+        - GitHub Copilot
+        - Muse Code
+        - Antigravity
+        - Not about a provider
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: And what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How do I make it happen?
+      placeholder: |
+        1. Hover the Claude widget
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: Cropped screenshots help a lot. Drag them in here.
