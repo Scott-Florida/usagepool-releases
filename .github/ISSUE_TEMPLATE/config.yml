@@ -1,6 +1,9 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions, ideas, licenses and refunds
+  - name: Questions, help and ideas
+    url: https://usagepool.ai/discord
+    about: Ask in #help or suggest something in #ideas on the UsagePool Discord.
+  - name: Licenses, payments and refunds
     url: https://usagepool.ai/docs#contact
     about: Email support@usagepool.ai, ideally from the address you bought with.
   - name: Security problems

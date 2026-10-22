@@ -13,8 +13,9 @@ next to it, plus there's a `checksums.txt`.
 
 If you've hit a bug you can make happen again, please [open an issue](https://github.com/Scott-Florida/usagepool-releases/issues/new/choose)
 and the form will ask for the few things I need. Issues are public, so leave out your email, account or org names and
-license key, and crop those out of screenshots too. Questions, ideas and anything about licenses, payments or refunds
-go to support@usagepool.ai, and security problems go privately to security@usagepool.ai, never in an issue.
+license key, and crop those out of screenshots too. For questions, help and ideas, the
+[Discord](https://usagepool.ai/discord) is the best spot, and anything about licenses, payments or refunds goes to
+support@usagepool.ai. Security problems go privately to security@usagepool.ai, never in an issue.
 
 UsagePool is commercial software. The license is in each download and at [usagepool.ai/terms](https://usagepool.ai/terms).
 It's an independent project, not affiliated with or endorsed by Anthropic, OpenAI, Cursor, GitHub or any other provider

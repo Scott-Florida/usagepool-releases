@@ -7,13 +7,13 @@ body:
       value: |
         Thanks for taking the time to report this! Issues here are public, so please leave out your email, account or org names and license key, and crop them out of screenshots too.
 
-        Questions, ideas, licenses, payments or refunds go to support@usagepool.ai.
+        Questions and ideas are better on the [Discord](https://usagepool.ai/discord), and licenses, payments or refunds go to support@usagepool.ai.
   - type: input
     id: version
     attributes:
       label: UsagePool version
       description: Open Settings, then choose UsagePool → About UsagePool in the menu bar.
-      placeholder: "1.0.2"
+      placeholder: "1.0.6"
     validations:
       required: true
   - type: input
